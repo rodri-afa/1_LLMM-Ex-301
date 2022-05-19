@@ -9,7 +9,7 @@
             <link rel="stylesheet" href="3_tienda.css"/>
         </head>
         <body>
-           <h1>Prueba</h1>
+           <h1><xsl:value-of select="/tienda/encabezado"/></h1>
         </body>
     </html>
 </xsl:template>
