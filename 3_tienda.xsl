@@ -19,7 +19,13 @@
                 <h2>Mis productos</h2>
                 <div class="products-container">
                     <xsl:for-each select="/tienda/productos/producto">
-                        <div class="product-card"> Esto es una prueba</div>
+                        <div class="product-card"> 
+                            <div class="fila-titulo">
+                                <h3><xsl:value-of select="./titulo"/></h3>
+                                <span class="precio"><xsl:value-of select="./precio"/></span>
+                            </div>
+                            <p><xsl:value-of select="./descripcion"/></p>
+                        </div>
                     </xsl:for-each>
                 </div>
             </div>

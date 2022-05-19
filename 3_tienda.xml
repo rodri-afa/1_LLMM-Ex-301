@@ -7,9 +7,28 @@
     <encabezado>Bienvenid@s a mi tienda</encabezado>
     <descripcion>Esto es una tienda online que vende productos a través de internet</descripcion>
     <productos>
-        <producto> placeholder </producto>
-        <producto> placeholder </producto>
-        <producto> placeholder </producto>
-        <producto> placeholder </producto>
+        <producto>
+            <titulo>Fresas 🍓</titulo>
+            <descripcion>Fresas rojas </descripcion>
+            <precio>5€/Kg</precio>
+        </producto>
+        <producto>
+            <titulo>Kiwis 🥝</titulo>
+            <descripcion>Kiwis verdes </descripcion>
+            <precio>6€/Kg</precio>
+        </producto>
+        <producto>
+            <titulo>Naranjas 🍊</titulo>
+            <descripcion>Naranjas^2 </descripcion>
+            <precio>7€/Kg</precio>
+        </producto>
+        <producto>
+            <titulo>Arándanos 🫐</titulo>
+            <descripcion>Arándanos azules </descripcion>
+            <precio>8€/Kg</precio>
+        </producto>
+
+
+
     </productos>         
 </tienda>
