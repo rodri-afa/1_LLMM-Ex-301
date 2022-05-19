@@ -51,6 +51,17 @@ p{
     animation-timing-function: linear;
     animation-fill-mode: both;
 }
+
+.polaroid:nth-child(2) .foto{
+    animation-delay: 1s;
+}
+.polaroid:nth-child(3) .foto{
+    animation-delay: 2s;
+}
+.polaroid:nth-child(4) .foto{
+    animation-delay: 3s;
+}
+
 @keyframes colores {
     0%{
         background-color: red;
