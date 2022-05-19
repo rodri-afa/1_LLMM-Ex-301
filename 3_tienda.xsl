@@ -9,7 +9,15 @@
             <link rel="stylesheet" href="3_tienda.css"/>
         </head>
         <body>
-           <h1><xsl:value-of select="/tienda/encabezado"/></h1>
+            <header>
+                <xsl:value-of select="/tienda/title"/>
+            </header>
+            
+            <div class="container">
+                <h1><xsl:value-of select="/tienda/encabezado"/></h1>
+                <p><xsl:value-of select="/tienda/descripcion"/></p>
+                <h2>Mis productos</h2>
+            </div>
         </body>
     </html>
 </xsl:template>
