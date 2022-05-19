@@ -62,6 +62,27 @@ p{
     animation-delay: 3s;
 }
 
+.polaroid:hover{
+    animation-name: acercar;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.polaroid:hover .foto{
+    background-image: url('./0_recursos/1_noserickparecefalso.gif');
+    background-size: cover;
+}
+
+@keyframes acercar {
+    from{
+        transform: scale(100%);
+        z-index: 3;
+    }
+    to{
+        transform: scale(130%);
+        z-index: 3;
+    }
+}
+
 @keyframes colores {
     0%{
         background-color: red;
