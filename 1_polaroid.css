@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+}
+p{
+    text-align: center;
+}
+.corcho{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 200px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    max-width: 800px;
+    margin: auto;
+    
+}
+.polaroid{
+    background-color: whitesmoke;
+    box-shadow: 0 0 6px;
+    padding:12px;
+    padding-bottom: 0;
+    max-width: 200px;
+}
