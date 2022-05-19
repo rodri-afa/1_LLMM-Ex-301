@@ -5,17 +5,11 @@
 <xsl:template match="/tienda" >
     <html>
         <head>
-            <title><xsl:value-of select="/tienda/title"/></title>
-            <link href="3_tienda.css" type="stylesheet"/>
+            <title></title>
+            <link rel="stylesheet" href="3_tienda.css"/>
         </head>
         <body>
-            <header><xsl:value-of select="/tienda/title"/></header>
-            <h1><xsl:value-of select="/tienda/encabezado"/></h1>
-            <p><xsl:value-of select="/tienda/descripcion"/></p>
-            <h2>Mis productos</h2>
-            <xsl:for-each select="/tienda/productos/producto">
-                <div class="producto">hola</div>
-            </xsl:for-each>
+           <h1>Prueba</h1>
         </body>
     </html>
 </xsl:template>
