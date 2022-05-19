@@ -39,3 +39,32 @@ p{
     z-index: 1;
     transform: rotate(-25deg);
 }
+
+.polaroid .foto{
+    background-color: black;
+    min-height: 100px;
+    width: 100%;
+    /* animation: colores 4s linear 0 infinite forward both; */
+    animation-name: colores;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+@keyframes colores {
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: orange;
+    }
+    50%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: green;
+    }
+    100%{
+        background-color: blue
+    }
+}
