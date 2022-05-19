@@ -6,5 +6,10 @@
     <title>Tienda Online</title>
     <encabezado>Bienvenid@s a mi tienda</encabezado>
     <descripcion>Esto es una tienda online que vende productos a través de internet</descripcion>
-             
+    <productos>
+        <producto> placeholder </producto>
+        <producto> placeholder </producto>
+        <producto> placeholder </producto>
+        <producto> placeholder </producto>
+    </productos>         
 </tienda>

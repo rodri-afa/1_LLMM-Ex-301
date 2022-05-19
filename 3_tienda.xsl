@@ -12,11 +12,16 @@
             <header>
                 <xsl:value-of select="/tienda/title"/>
             </header>
-            
+
             <div class="container">
                 <h1><xsl:value-of select="/tienda/encabezado"/></h1>
                 <p><xsl:value-of select="/tienda/descripcion"/></p>
                 <h2>Mis productos</h2>
+                <div class="products-container">
+                    <xsl:for-each select="/tienda/productos/producto">
+                        <div class="product-card"> Esto es una prueba</div>
+                    </xsl:for-each>
+                </div>
             </div>
         </body>
     </html>
