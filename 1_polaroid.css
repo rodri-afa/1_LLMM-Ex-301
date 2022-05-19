@@ -31,3 +31,11 @@ p{
     padding-bottom: 0;
     max-width: 200px;
 }
+.polaroid:nth-child(even){
+    z-index: 2;
+    transform: rotate(10deg);
+}
+.polaroid:nth-child(odd){
+    z-index: 1;
+    transform: rotate(-25deg);
+}
