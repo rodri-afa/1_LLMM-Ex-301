@@ -1,0 +1,47 @@
+#reloj {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    border: 10px solid black;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 8px;
+  }
+  .manecillas{
+    width: 4px;
+    transform-origin: center bottom;
+    animation: rotate infinite linear;
+  }
+  
+  #segundos {
+    height: 50%;
+    background-color: gray;
+    animation-duration:6s;
+    z-index: 2;    
+  }
+  
+  #minutos {
+    height: 45%;
+    background-color: darkslategray;
+    animation-duration: 360s;
+    z-index: 1;
+  }
+  
+  #horas {
+    width: 7px;
+    height: 40%;
+    background-color: black;
+    animation-duration:  4320s 
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
